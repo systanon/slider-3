@@ -1,0 +1,49 @@
+#button_gallery_left{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid red;
+  top: 157px;
+  left: 88px;
+}
+#button_gallery_left:before{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    border-bottom: 3px solid red;
+    border-right: 3px solid transparent;
+    border-top: 3px solid transparent;
+    border-left: 3px solid red;
+    position: absolute;
+    top: 9px;
+    left: 14px
+}
+
+#button_gallery_right{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid red;
+  top: 157px;
+  right:108px;
+}
+#button_gallery_right:before{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid red;
+    border-top: 3px solid red;
+    border-left: 3px solid transparent;
+    position: absolute;
+    top: 9px;
+    left: 5px
+}
+img {
+  width: 50%;
+  margin-left: 25%;
+}
